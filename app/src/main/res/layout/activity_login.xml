@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:alpha=".95"
+   android:background="@drawable/gradient_1"
+   android:orientation="vertical"
+   android:paddingLeft="10dp"
+   android:paddingRight="10dp"
+   android:fillViewport="true"
+   tools:context=".activity.LoginActivity">
+   
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="10dp"
+         android:layout_weight="1"/>
+      
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_round">
+            
+            <EditText
+               android:id="@+id/userNameET"
+               style="@style/TextStyle"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:hint="@string/user_name"
+               android:inputType="text"/>
+         
+         </LinearLayout>
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_round"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+            
+            <EditText
+               android:id="@+id/passwordET"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:hint="@string/password"
+               android:inputType="textPassword"/>
+         
+         </LinearLayout>
+         
+         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="Login"
+            android:text="@string/login"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Default User Name and Password: admin"/>
+      
+      </LinearLayout>
+      
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="5dp"
+         android:layout_weight="1"/>
+      
+   </LinearLayout>
+</ScrollView>

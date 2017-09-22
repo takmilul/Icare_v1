@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.finalproject.takmilul.icare">
+   
+   <uses-permission android:name="android.permission.CALL_PHONE"/>
+   <uses-permission android:name="android.permission.SEND_SMS"/>
+   <uses-permission android:name="android.permission.INTERNET"/>
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+   <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+   <uses-permission android:name="android.permission.READ_CONTACTS"/>
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+   <uses-permission android:name="android.permission.VIBRATE"/>
+   
+   <application
+      android:name=".activity.MyApplication"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+      <activity android:name=".activity.MainActivity"
+         android:theme="@style/NoActionBar">
+         <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            
+            <category android:name="android.intent.category.LAUNCHER"/>
+         </intent-filter>
+      </activity>
+      <activity
+         android:name=".activity.LoginActivity"
+         android:label="@string/login"/>
+      <activity
+         android:name=".activity.DashBoardActivity"
+         android:label="@string/dashboard"
+         android:parentActivityName=".activity.ProfileListActivity"/>
+      <activity
+         android:name=".activity.AddProfileActivity"
+         android:label="@string/add_profile"
+         android:parentActivityName=".activity.ProfileListActivity"/>
+      <activity
+         android:name=".activity.AddDietActivity"
+         android:label="@string/add_diet"/>
+      <activity
+         android:name=".activity.AddVaccinationActivity"
+         android:label="@string/add_vaccination"
+         android:parentActivityName=".activity.VaccineListActivity"/>
+      <activity
+         android:name=".activity.AddDoctorActivity"
+         android:label="@string/add_doctor"
+         android:parentActivityName=".activity.DoctorsListActivity"/>
+      <activity
+         android:name=".activity.AddMedicalHistoryActivity"
+         android:label="@string/add_medical_history"
+         android:parentActivityName=".activity.MedicalHistoryListActivity"/>
+      <activity
+         android:name=".activity.AddMedicineActivity"
+         android:label="@string/add_medicine_dose"
+         android:parentActivityName=".activity.MedicineListActivity"/>
+      <activity
+         android:name=".activity.ProfileListActivity"
+         android:label="@string/title_activity_profile_list"/>
+      <activity
+         android:name=".activity.GeneralInformationActivity"
+         android:label="@string/title_activity_general_information"
+         android:parentActivityName=".activity.DashBoardActivity"/>
+      <activity
+         android:name=".activity.DietListActivity"
+         android:label="@string/title_activity_diet_list"
+         android:parentActivityName=".activity.DashBoardActivity"
+         android:theme="@style/NoActionBar"/>
+      <activity
+         android:name=".activity.VaccineListActivity"
+         android:label="@string/title_activity_vaccine_list"
+         android:parentActivityName=".activity.DashBoardActivity"
+         android:theme="@style/NoActionBar"/>
+      <activity
+         android:name=".activity.MedicalHistoryListActivity"
+         android:label="@string/title_activity_medical_history_list"
+         android:parentActivityName=".activity.DashBoardActivity"/>
+      <activity
+         android:name=".activity.DoctorsListActivity"
+         android:label="@string/title_activity_doctors_list"
+         android:parentActivityName=".activity.DashBoardActivity"/>
+      <activity
+         android:name=".activity.MedicineListActivity"
+         android:label="@string/title_activity_medicine_list"
+         android:parentActivityName=".activity.DashBoardActivity"
+         android:theme="@style/NoActionBar"/>
+      <activity
+         android:name=".activity.AddAppoinmentActivity"
+         android:label="Add Appointment"
+         android:parentActivityName=".activity.AppointmentListActivity"/>
+      <activity
+         android:name=".activity.AppointmentListActivity"
+         android:label="@string/title_activity_appoinment_list"
+         android:parentActivityName=".activity.DashBoardActivity"
+         android:theme="@style/NoActionBar"/>
+      <activity
+         android:name=".activity.HospitalListActivity"
+         android:label="@string/title_activity_hospital_list"
+         android:parentActivityName=".activity.DashBoardActivity"/>
+      <activity
+         android:name=".activity.AddHospitalActivity"
+         android:label="@string/title_activity_add_hospital"
+         android:parentActivityName=".activity.HospitalListActivity"/>
+      <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+      <meta-data
+         android:name="com.google.android.geo.API_KEY"
+         android:value="@string/google_maps_key"/>
+      
+      <activity
+         android:name=".activity.MapsActivity"
+         android:label="@string/title_activity_maps"/>
+      <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+      <meta-data
+         android:name="com.google.android.gms.version"
+         android:value="@integer/google_play_services_version"/>
+      
+      <receiver android:name=".alarm.MyBroadcastReceiver"/>
+      
+      <activity
+         android:name=".alarm.ResultActivity"
+         android:label="Result Activity">
+      </activity>
+      <activity
+         android:name=".activity.UpdateUserActivity"
+         android:label="Update User"
+         android:parentActivityName=".activity.ProfileListActivity"/>
+      <activity
+         android:name=".activity.AppointmentDetailsActivity"
+         android:label="Appointment Details"
+         android:parentActivityName=".activity.AppointmentListActivity"/>
+      <activity
+         android:name=".activity.NewDietListActivity"
+         android:label="Diet List"
+         android:parentActivityName=".activity.DashBoardActivity">
+      </activity>
+      <activity
+         android:name=".activity.NewEditDietActivity"
+         android:label="Edit Diet"
+         android:parentActivityName=".activity.DietListActivity">
+      </activity>
+   </application>
+
+</manifest>

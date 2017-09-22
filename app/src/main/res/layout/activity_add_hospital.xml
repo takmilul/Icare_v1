@@ -1,0 +1,230 @@
+<ScrollView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@drawable/gradient_1"
+   android:alpha=".95"
+   android:orientation="vertical"
+   android:padding="10dp"
+   tools:context=".activity.AddHospitalActivity">
+   
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/shape_round"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp">
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="Name : "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+         
+         <EditText
+            android:id="@+id/addHospitalNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Hospital Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+      </LinearLayout>
+      
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/shape_round"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp">
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="Road : "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+         
+         <EditText
+            android:id="@+id/addHospitalRoadET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Road Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+      </LinearLayout>
+      
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/shape_round"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp">
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="City : "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+         
+         <EditText
+            android:id="@+id/addHospitalCityET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="City Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+      </LinearLayout>
+      
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/shape_round"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp">
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="Country : "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+         
+         <EditText
+            android:id="@+id/addHospitalCountryET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Country Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+      </LinearLayout>
+      
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/shape_round"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp">
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="Contact Number : "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+         
+         <EditText
+            android:id="@+id/addHospitalContactET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Contact Number"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+      </LinearLayout>
+      
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/shape_round"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp">
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="Email : "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+         
+         <EditText
+            android:id="@+id/addHospitalEmailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+      </LinearLayout>
+      
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:orientation="horizontal"
+         android:padding="5dp">
+         
+         <Button
+            android:id="@+id/addHospitalSaveBTN"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:onClick="onClickHospitalSave"
+            android:text="@string/save"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            
+            />
+         
+         <Button
+            android:id="@+id/addHospitalNewBTN"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:onClick="onClickHospitalNew"
+            android:text="@string/neww"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+      </LinearLayout>
+   </LinearLayout>
+</ScrollView>

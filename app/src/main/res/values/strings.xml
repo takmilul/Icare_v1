@@ -1,0 +1,380 @@
+<resources>
+   <string name="app_name">Icare</string>
+   <string name="user_name">User Name</string>
+   <string name="password">Password</string>
+   <string name="login">Login</string>
+   <string name="diet_chart">Diet Chart</string>
+   <string name="vaccination">Vaccination</string>
+   <string name="doctors">Doctors List</string>
+   <string name="doctors_appointment">Appointment</string>
+   <string name="general_info">General Information</string>
+   <string name="hospital_info">Hospital Information</string>
+   <string name="medical_history">Medical History</string>
+   <string name="name">Name</string>
+   <string name="date_of_birth">Date of Birth</string>
+   <string name="gender">Gender :</string>
+   <string name="height">Height in Inch</string>
+   <string name="weight">Weight in KG</string>
+   <string name="email">Email Address</string>
+   <string name="mobile">Mobile Number</string>
+   <string name="blood_group">Blood Group: </string>
+   <string name="save">SAVE</string>
+   <string name="neww">New</string>
+   <string name="diet_type">Diet Type: </string>
+   <string name="date">Date</string>
+   <string name="from_date">From Date</string>
+   <string name="to_date">To Date</string>
+   <string name="time">Time</string>
+   <string name="daily_alarm">Daily Alarm</string>
+   <string name="reminder">Reminder</string>
+   <string name="menu">Menu</string>
+   <string name="details">Details</string>
+   <string name="vaccine_name">Vaccine Name</string>
+   <string name="address">Address</string>
+   <string name="appointment_date">Appointment Date</string>
+   <string name="appointment_time">Appointment Time</string>
+   <string name="remarks">Remarks</string>
+   <string name="dashboard">DashBoard</string>
+   <string name="add_profile">Add Profile</string>
+   <string name="add_diet">Save</string>
+   <string name="add_vaccination">Add Vaccination</string>
+   <string name="add_doctor">Add Doctor</string>
+   <string name="add_medical_history">Add Medical History</string>
+
+   <string name="title_activity_appoinment_list">Appointment List</string>
+   <string name="add_appointment">Add Appointment</string>
+
+
+   <string name="add_medicine_dose">Add Medicine Dose</string>
+   <string name="medicine_name">Medicine Name</string>
+   <string name="medicine_dose">Medicine</string>
+   <string name="medicine_period_m">Morning</string>
+   <string name="medicine_period_a">Afternoon</string>
+   <string name="medicine_period_e">Evening</string>
+   <string name="medicine_period_n">Night</string>
+   <string name="hello_world">Hello world!</string>
+   <string name="add_profile_menu">ADD PROFILE</string>
+
+   <string name="title_activity_profile_list">Profile List</string>
+   <string name="profile_search">Search Profile by Name</string>
+   <string name="title_activity_general_information">General Information</string>
+   <string name="title_activity_diet_list">Diet List</string>
+   <string name="title_activity_vaccine_list">Vaccine List</string>
+   <string name="title_activity_medical_history_list">Medical HistoryList</string>
+   <string name="title_activity_doctors_list">Doctors List</string>
+   <string name="title_activity_medicine_list">Medicine List</string>
+   <string name="profilenid">National ID/Birth Certificate No</string>
+
+   <string name="takePhoto">Take Photo</string>
+
+   <string name="takePrecriptionReport">Take Prescription/Report</string>
+
+
+   <string-array name="gender_spinner_array">
+      <item>Male</item>
+      <item>Female</item>
+   </string-array>
+   <string-array name="diet_type_array">
+      <item>Breakfast</item>
+      <item>Launch</item>
+      <item>Dinner</item>
+   </string-array>
+   <string-array name="relation_spinner_array">
+      <item>Myself</item>
+      <item>Father</item>
+      <item>Mother</item>
+      <item>Son</item>
+      <item>Daughter</item>
+      <item>Husband</item>
+      <item>Wife</item>
+      <item>Brother</item>
+      <item>Sister</item>
+      <item>Grandfather</item>
+      <item>Grandmother</item>
+      <item>Grandson</item>
+      <item>Granddaughter</item>
+      <item>Uncle</item>
+      <item>Aunt</item>
+      <item>Nephew</item>
+      <item>Niece</item>
+      <item>Cousin</item>
+      <item>Father-in-law</item>
+      <item>Mother-in-law</item>
+      <item>Sister-in-law</item>
+      <item>Brother-in-law</item>
+   </string-array>
+
+   <string-array name="blood_group_spinner_array">
+      <item>A+</item>
+      <item>B+</item>
+      <item>AB+</item>
+      <item>AB-</item>
+      <item>B-</item>
+      <item>O+</item>
+      <item>A-</item>
+      <item>O-</item>
+   </string-array>
+   <string-array name="doctor_specialist_spinner_array">
+      <item>INTERNAL MEDICINE</item>
+      <item>CARDIOLOGY</item>
+      <item>CARDIAC AND VASCULAR SURGERY</item>
+      <item>GASTROENTEROLOGY</item>
+      <item>GENERAL SURGERY</item>
+      <item>UROLOGY</item>
+      <item>DENTAL</item>
+      <item>ENDOCRINOLOGY</item>
+      <item>ONCOLOGY</item>
+      <item>CLINICAL HAEMATOLOGY</item>
+      <item>PEDIATRICS</item>
+      <item>NEONATOLOGY</item>
+      <item>DERMATOLOGY</item>
+      <item>ENT,HEAD AND NECK SURGERY</item>
+      <item>ORTHOPEDICS</item>
+      <item>NEURO SURGERY</item>
+      <item>NEURO MEDICINE</item>
+      <item>OBGYN</item>
+      <item>PATHOLOGY</item>
+      <item>RADIOLOGY</item>
+      <item>OPHTHALMOLOGY</item>
+      <item>ICU</item>
+   </string-array>
+   <string name="title_activity_hospital_list">Hospital List</string>
+   <string name="title_activity_add_hospital">Add Hospital</string>
+   <string name="add_hospital">Add Hospital</string>
+   <string name="title_activity_maps">Map</string>
+
+   <string-array name="diabetes_diet_breakfast">
+      <item>Breakfast</item>
+      <item>2 slices of whole wheat roti/ bread toast.</item>
+      <item>2 tsp butter</item>
+      <item>1 Apple /guava/orange</item>
+      <item>1 cup tea with skim milk And with no sugar.</item>
+   </string-array>
+
+   <string-array name="diabetes_diet_lunch">
+      <item>Lunch</item>
+      <item>2-3 cups of cooked brown rice</item>
+      <item>1 cup of dal</item>
+      <item>1 cup of stir-fried vegetables</item>
+      <item>60 gm of fish (low fat) or meat (white, lean)</item>
+      <item>1 cup low fat yogurt</item>
+   </string-array>
+   
+   <string-array name="diabetes_diet_snacks">
+      <item>Snacks</item>
+      <item>1 fresh fruit</item>
+      <item>1 Egg</item>
+   </string-array>
+   
+   <string-array name="diabetes_diet_dinner">
+      <item>Dinner</item>
+      <item>2-3 cup cooked brown rice</item>
+      <item>1 roti</item>
+      <item>1 cup stir-fried vegetables</item>
+      <item>60 gm of chicken or fish</item>
+      <item>1 cup raw salad</item>
+      <item>1 cup of skim milk</item>
+   </string-array>
+
+   <string-array name="hbp_diet_breakfast">
+      <item>Breakfast</item>
+      <item>2 slices of whole wheat roti/ bread toast.</item>
+      <item>1 cake</item>
+      <item>Some fresh mixed fruits</item>
+      <item>1 cup Herbal tea.</item>
+   </string-array>
+
+   <string-array name="hbp_diet_lunch">
+      <item>Lunch</item>
+      <item>2-3 cups of cooked brown rice</item>
+      <item>1 cup of stir-fried spinach</item>
+      <item>100 ounces chopped chicken</item>
+      <item>1/2 cup cooked beans, lentils or peas</item>
+   </string-array>
+
+   <string-array name="hbp_diet_snacks">
+      <item>Snacks</item>
+      <item>1 fresh fruit</item>
+      <item>biscuit/chocolate/nuts/sunflower seed</item>
+   </string-array>
+   
+   <string-array name="hbp_diet_dinner">
+      <item>Dinner</item>
+      <item>2-3 cup cooked brown rice</item>
+      <item>1 cup stir-fried vegetables including Broccoli</item>
+      <item>100 gm of chicken or fish</item>
+      <item>1 tsp olive oil</item>
+      <item>1 cup raw salad</item>
+      <item>1 cup low fat yogurt/milk</item>
+   </string-array>
+   
+   <string-array name="lbp_diet_breakfast">
+      <item>Breakfast</item>
+      <item>2 slices of whole wheat roti/ bread toast.</item>
+      <item>1 slice banana</item>
+      <item>1 egg white omelette</item>
+      <item>1 Apple /guava/orange</item>
+      <item>1 cup tea with skim milk</item>
+   </string-array>
+   
+   <string-array name="lbp_diet_lunch">
+      <item>Lunch</item>
+      <item>2-3 cups of cooked brown rice</item>
+      <item>1 cup of dal</item>
+      <item>1 cup of stir-fried vegetables</item>
+      <item>1 cup raw salad</item>
+      <item>100 gm of fish (low fat) or meat (white, lean)</item>
+      <item>1 cup low fat yogurt</item>
+   </string-array>
+   
+   <string-array name="lbp_diet_snacks">
+      <item>Snacks</item>
+      <item>1 cup Herbal tea</item>
+      <item>1 cup raspberries/sliced plums/blueberries</item>
+   </string-array>
+   
+   <string-array name="lbp_diet_dinner">
+      <item>Dinner</item>
+      <item>2-3 cup cooked brown rice</item>
+      <item>1 garlic clove</item>
+      <item>1 cup stir-fried vegetables</item>
+      <item>2 cup chicken soup</item>
+      <item>1 cup cooked beans/lentils/peas.</item>
+      <item>1 cup of skim milk</item>
+   </string-array>
+   
+   <string-array name="pancreatic_diet_breakfast">
+      <item>Breakfast</item>
+      <item>2 slices of whole wheat roti/ bread toast.</item>
+      <item>1 cup tomato juice</item>
+      <item>1 fresh fruit</item>
+      <item>1 cup pasta with tomato sauce</item>
+   </string-array>
+   
+   <string-array name="pancreatic_diet_lunch">
+      <item>Lunch</item>
+      <item>2-3 cups of cooked brown rice</item>
+      <item>1 cup of dal</item>
+      <item>1 cup of stir-fried vegetables</item>
+      <item>100 gm of fish (low fat)</item>
+      <item>1 cup low fat yogurt</item>
+   </string-array>
+   
+   <string-array name="pancreatic_diet_snacks">
+      <item>Snacks</item>
+      <item>1 fresh fruit</item>
+      <item>8 oz diet ginger ale</item>
+   </string-array>
+   
+   <string-array name="pancreatic_diet_dinner">
+      <item>Dinner</item>
+      <item>2-3 cup cooked brown rice</item>
+      <item>1 roti</item>
+      <item>1 cup stir-fried vegetables</item>
+      <item>100 gm baked chicken breast</item>
+      <item>1 cup mixed green salad</item>
+      <item>1 cup of skim milk</item>
+   </string-array>
+   
+   <string-array name="age20s_diet_breakfast">
+      <item>Breakfast</item>
+      <item>2 slices of whole wheat roti/ bread toast.</item>
+      <item>2 tsp butter</item>
+      <item>1 tsp peanut</item>
+      <item>1 fresh fruit</item>
+      <item>1 slice pizza</item>
+   </string-array>
+   
+   <string-array name="age20s_diet_lunch">
+      <item>Lunch</item>
+      <item>2-3 cups of cooked brown rice</item>
+      <item>1 cup cooked beans/lentils/peas</item>
+      <item>1 cup of stir-fried vegetables</item>
+      <item>150 gm of fish (low fat) or meat (white, lean)</item>
+      <item>1 cup low fat yogurt</item>
+   </string-array>
+   
+   <string-array name="age20s_diet_snacks">
+      <item>Snacks</item>
+      <item>1 fresh fruit</item>
+      <item>1 Egg</item>
+   </string-array>
+   
+   <string-array name="age20s_diet_dinner">
+      <item>Dinner</item>
+      <item>2-3 cup cooked brown rice</item>
+      <item>1 cup stir-fried vegetables</item>
+      <item>150 gm of chicken or fish</item>
+      <item>100 gm broccoli/salmon</item>
+      <item>1 cup raw salad</item>
+      <item>1 cup of skim milk</item>
+   </string-array>
+   
+   <string-array name="age30s_diet_breakfast">
+      <item>Breakfast</item>
+      <item>2 Ham and Brie Sandwich</item>
+      <item>2 tsp butter</item>
+      <item>2 tsp natural peanut </item>
+      <item>1 cup orange juice</item>
+   </string-array>
+   
+   <string-array name="age30s_diet_lunch">
+      <item>Lunch</item>
+      <item>2-3 cups of cooked brown rice</item>
+      <item>1 cup cooked beans/lentils/peas</item>
+      <item>1 cup of stir-fried vegetables</item>
+      <item>150 gm of fish (low fat) or meat (white, lean)</item>
+      <item>1 cup low fat yogurt</item>
+   </string-array>
+   
+   <string-array name="age30s_diet_snacks">
+      <item>Snacks</item>
+      <item>1 ounce dark chocolate</item>
+      <item>1 Egg</item>
+   </string-array>
+   
+   <string-array name="age30s_diet_dinner">
+      <item>Dinner</item>
+      <item>2-3 cup cooked brown rice</item>
+      <item>2 medium baked sweet potato</item>
+      <item>1 cup stir-fried vegetables</item>
+      <item>3 ounces broiled salmon</item>
+      <item>1 cup raw salad</item>
+      <item>1 cup of skim milk</item>
+   </string-array>
+   
+   <string-array name="age40s_diet_breakfast">
+      <item>Breakfast</item>
+      <item>2 slices of whole wheat roti/bread toast.</item>
+      <item>1 cup blueberries</item>
+      <item>1 cup mixed fruit juice</item>
+      <item>1 cup watermelon chunks</item>
+      <item>1 cup green tea</item>
+   </string-array>
+   
+   <string-array name="age40s_diet_lunch">
+      <item>Lunch</item>
+      <item>2-3 cups of cooked brown rice</item>
+      <item>1 cup of dal</item>
+      <item>1 cup of stir-fried vegetables</item>
+      <item>150 gm of fish (low fat) or meat (white, lean)</item>
+      <item>1 cup low fat yogurt</item>
+   </string-array>
+   
+   <string-array name="age40s_diet_snacks">
+      <item>Snacks</item>
+      <item>1 ounce dark chocolate</item>
+      <item>1 Egg</item>
+   </string-array>
+   
+   <string-array name="age40s_diet_dinner">
+      <item>Dinner</item>
+      <item>2-3 cup cooked brown rice</item>
+      <item>1 teaspoon olive oil</item>
+      <item>1 cup stir-fried vegetables</item>
+      <item>150 gm of fish</item>
+      <item>2 cup chicken soup</item>
+      <item>1 cup of skim milk</item>
+   </string-array>
+
+</resources>
