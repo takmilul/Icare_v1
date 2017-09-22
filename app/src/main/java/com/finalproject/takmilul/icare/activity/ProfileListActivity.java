@@ -98,7 +98,7 @@ public class ProfileListActivity extends AppCompatActivity {
             permission.ACCESS_COARSE_LOCATION,
             permission.READ_CONTACTS
       };
-      
+         //access permission
             /*if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
                   == PackageManager.PERMISSION_GRANTED) {
                Log.v(TAG,"Permission is granted");
